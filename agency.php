@@ -101,7 +101,7 @@
                                         
                                         <td><?= $card['unit']; ?></td>
                                  
-                                        <td><?= $card['sell']; ?></td>
+                                        <td><?= $card['agency']; ?></td>
                                         
                                     
                                     </tr>

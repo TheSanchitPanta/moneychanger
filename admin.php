@@ -146,7 +146,10 @@ $useraccess = $_SESSION["access"];
                                         <th scope="col">Currency</th>
                                         <th scope="col">Unit</th>
                                         <th scope="col">Buy</th>
-                                        <th scope="col">Buy (Best Price)</th>
+                                        <th scope="col">Buy (Agency)</th>
+                                        <th scope="col">Bank1</th>
+                                        <th scope="col">Bank2</th>
+                                        <th scope="col">Bank3</th>
                                         <th scope="col">Update</th>
                                     </tr>
                                 </thead>
@@ -173,7 +176,10 @@ $useraccess = $_SESSION["access"];
                                         <input value="<?= $card['id']; ?>" hidden name="id" class="form-control">
                                         <td><input value="<?= $card['unit']; ?>" disabled type="text" name="unit" class="form-control"></td>
                                         <td><input value="<?= $card['buy']; ?>" type="text" name="buy" class="form-control"></td>
-                                        <td><input value="<?= $card['sell']; ?>" type="text" name="sell" class="form-control"></td>
+                                        <td><input value="<?= $card['agency']; ?>" type="text" name="agency" class="form-control"></td>
+                                        <td><input value="<?= $card['bank1']; ?>" type="text" name="bank1" class="form-control"></td>
+                                        <td><input value="<?= $card['bank2']; ?>" type="text" name="bank2" class="form-control"></td>
+                                        <td><input value="<?= $card['bank3']; ?>" type="text" name="bank3" class="form-control"></td>
                                         <td><button type="submit" class="btn btn-success">UPDATE</button></td>
                                         </form>
                                     </tr>
@@ -196,7 +202,11 @@ $useraccess = $_SESSION["access"];
                                         </td>
                                         <td></td>
                                         <td></td>
-                                        <td><button type="button" class="btn btn-success">UPDATE DATA</button></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><button type="button" class="btn btn-success">UPDATE</button></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -204,27 +214,7 @@ $useraccess = $_SESSION["access"];
 
                     </div>
 
-                    <footer class="footer">
-                        <small style="margin-bottom: 20px; display: inline-block">
-                            © 2023 New LakeSide Money Changer
-                            <a target="_blank" href="sanchitpanta.com.np">Pokhara, Lakeside</a>
-                        </small>
-                        <br />
-                        <div class="social-links">
-                            <a href="" target="_blank">
-                                <i class="ri-github-fill ri-xl"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="ri-twitter-fill ri-xl"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="ri-codepen-fill ri-xl"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="ri-linkedin-box-fill ri-xl"></i>
-                            </a>
-                        </div>
-                    </footer>
+                    <
                 </main>
                 <div class="overlay"></div>
             </div>
